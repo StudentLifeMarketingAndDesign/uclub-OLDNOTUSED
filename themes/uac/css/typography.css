@@ -1,0 +1,187 @@
+/**
+ * This typography file is included in the WYSIWYG editor
+ */
+/*.typography * {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:1em;
+}
+.typography blockquote {
+	margin-left:20px;
+}
+.typography hr {
+	padding:5px;
+}
+.typography p,
+.typography ul li,
+.typography ol li,
+.typography a {
+	color:#333;
+	line-height:1.5em;
+	font-size:1.1em;
+}
+.typography p {
+	margin-bottom:20px;
+}
+
+*/
+/** CMS LIST STYLES **/
+/*.typography ul,
+.typography ol {
+	margin-left:10px;
+	margin-bottom:20px;
+}*/
+	.typography ul li,
+	.typography ol li {
+		margin:4px 10px;
+		line-height:1.4em;
+	}
+		.typography ul li {
+		 list-style-type:disc;
+		}
+		.typography ol li {
+			list-style-type:decimal;
+    }
+
+/* HEADER STYLES */
+/*
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4 {
+	margin-bottom:14px;
+	color:#0083C8;
+}
+.typography h1,
+.typography h4 {
+	font-weight:bold;
+}
+.typography h2,
+.typography h3 {
+	font-weight:normal;
+}
+	.typography h1 {
+		font-size:2.2em;
+	}
+	.typography h2 {
+		font-size:2.2em;
+	}
+	.typography h3 {
+		font-size:1.6em;
+	}
+	.typography h4 {
+		font-size:1.4em;
+	}*/
+
+/* LINK STYLES */
+/*.typography a {
+	color:#0083C8;
+  font-size:1em;
+  text-decoration:none;
+}
+	.typography a:hover {
+		text-decoration:underline;
+	}
+	
+	
+.typography table {
+	font-size:1.1em;
+}
+	.typography table tr td {
+		padding:3px 5px;
+	}*/
+
+	
+/* WYSIWYG EDITOR ALIGNMENT CLASSES */
+.typography .left {
+	text-align:left;
+}
+.typography .center {
+	text-align:center;
+}
+.typography .right {
+	text-align:right;
+}
+.typography img.right {
+	float:right;
+}
+.typography img.left {
+	float:left;
+}
+.typography #right-column img.left {
+	margin-left: 20px;
+	padding-right: 5px;
+}
+
+.typography p.MsoNormal, .typography p.MsoBodyText {
+	margin: 0;
+}
+
+
+/*UAC*/
+.typography p.feature-text {
+	color:#000000;
+	padding-top:5px;
+	margin-top:4px;
+	font: normal 12px/25px Arial, Helvetica, sans-serif;
+	color:#333333;
+	padding: 0 20px 0 20px;
+}
+
+.typography ul {
+	color:#000000;
+	padding-top:5px;
+	margin-top:4px;
+	font: normal 12px/25px Arial, Helvetica, sans-serif;
+	color:#333333;
+	padding: 0 20px 0 20px;
+}
+
+
+.typography h4 {
+	font: normal bold 11px Arial;
+	color:#0066CC;
+	margin:0;
+	padding: 0 0px 0 20px;
+	display:inline;
+}
+
+.typography h5 {
+	font: italic 13px/17px Arial;
+	color:#333333;
+	margin:0;
+	padding: 0 10px 0 20px;
+	
+}
+
+.typography h2 {
+	display:inline;
+	color: #333333;
+	font: italic 14px/30px Georgia, "Times New Roman", Times, serif;
+	padding: 5px 0px 0 20px;
+}
+.typography h3 {
+	font: normal 16px/30px Georgia, "Times New Roman", Times, serif;
+	display:inline;
+	text-transform:uppercase;
+	color:#A97E00;
+	letter-spacing:.5px;
+	padding-left:4px;
+
+}
+.typography p.boxes {
+	margin-top:0px;
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	color:#666666;
+	padding: 0 20px 0 20px;}
+
+.typography p {
+	padding: 0;}
+
+.typography #logo h1 {
+	display:inline;
+	font: normal 10px Georgia, "Times New Roman", Times, serif;
+	color:#666666;
+	text-transform:uppercase;
+	padding-left:10px;
+	
+}
