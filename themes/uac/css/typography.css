@@ -118,6 +118,12 @@
 
 
 /*UAC*/
+
+.typography p a {
+	color: #06C;
+	
+}
+
 .typography p.feature-text {
 	color:#000000;
 	padding-top:5px;
