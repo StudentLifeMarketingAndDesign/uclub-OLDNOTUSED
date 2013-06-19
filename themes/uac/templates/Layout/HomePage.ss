@@ -9,9 +9,12 @@
 <div class="underline">
 <h3>News &amp; Announcements</h3><a href="/news/rss/"><img class="rss" src="$ThemeDir/images/rss.gif" alt="rss" /></a>
 </div><br/>
-<p style="font-family:Georgia; font-style:italic; font-size:11px; padding-left:20px;">Subscribe via <a
+<p style="font-family:Georgia; font-style:italic; font-size:11px; padding-left:20px;"><a
 href="http://eepurl.com/iMdIT" target="_blank"
->e-mail</a> to receive information on UC news and events.</p>
+>Subscribe to Uclub News and Events</a></p>
+<p style="font-family:Georgia; font-style:italic; font-size:11px; padding-left:20px;"><a
+href="http://eepurl.com/AA4TD" target="_blank"
+>Subscribe to Pool and Tennis Schedule Changes</a></p>
     <% control NewsLimited %>
     <h4>$Title</h4>
    $Content
